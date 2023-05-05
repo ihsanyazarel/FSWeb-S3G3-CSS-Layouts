@@ -1,1 +1,152 @@
 /* CSS stillerinizi buraya girin */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: rgb(180, 188, 190);
+    height: 10rem;
+    width: 100%;
+}
+.isim{
+    height: 3em;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+}
+.header-butonlar{
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 1em;
+}
+.buton{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 5%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 100ms;
+    width: max-content;
+}
+a.buton:hover {
+    color: white;
+    transform: scale(1.1);
+    background-color: black;
+  }
+
+
+/* Middle kodları yazılacak */
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 70rem;
+    width: 100%;
+}
+.middle-1{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    height: 70rem;
+    width: 100%;
+    margin: 0.25em;
+}
+.middle-1-img{
+    width: 40%;
+    margin: 0.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+img.middle-1-img{
+    width: 30em;
+    
+}
+.middle-1-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-left: 10em;
+    margin-top: 10em;
+    
+
+}
+.middle-1-isim{
+    height: max-content;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    margin: 10px 0;
+}
+.onyazi{
+    margin: 10px 0;
+}
+.middle-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 50rem;
+    width: 100%;
+    margin: 0.5em;
+}
+.middle-2-div1{
+    height:max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.middle-2-div2{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.middle-2-img{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+img.middle-2-img{
+    max-width: 15em;
+    height: auto;
+    /* width:min-content; */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 10px;
+
+}
+.middle-2-metin{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
+/* Middle kodları yazılacak */
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: rgb(180, 188, 190);
+    height: 5rem;
+    width: 100%;
+}
+p.footer-message{
+    text-align: center;
+}
+.footer-butonlar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2em;
+}
+.highlighted{
+    font-weight: bold;
+}
